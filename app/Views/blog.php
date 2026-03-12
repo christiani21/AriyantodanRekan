@@ -81,25 +81,11 @@
         </nav>
       </div>
     </div><!-- End Page Title -->
-    
-        <?php 
-        $PostModel = new PostModel();
-        $categories = $PostModel->distinct()->select('category')->findAll();
-        ?>
-
-          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-            </ul>
-          </li> -->
           <li class="dropdown">
               <a href="#">
                 <span>Kategori</span>
                 <i class="bi bi-chevron-down toggle-dropdown"></i>
               </a>
-
               <ul>
                 <?php foreach ($categories as $cat): ?>
                   <li>

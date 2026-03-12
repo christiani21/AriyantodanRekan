@@ -10,7 +10,7 @@ $routes->get('/tentang_kami', 'Home::tentang_kami');
 $routes->get('/layanan', 'Home::layanan');
 $routes->get('/portofolio', 'Home::portofolio');
 $routes->get('/rekan', 'Home::rekan');
-$routes->get('/blog', 'Home::blog');
+// $routes->get('/blog', 'Home::blog');
 $routes->get('/kontak', 'Home::kontak');
 
 $routes->get('/detail_blog', 'Home::detail_blog');

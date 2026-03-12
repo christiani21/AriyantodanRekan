@@ -24,10 +24,10 @@ class Home extends BaseController
     {
         return view(name: 'rekan');
     }
-    public function blog(): string
-    {
-        return view(name: 'blog');
-    }
+    // public function blog(): string
+    // {
+    //     return view(name: 'blog');
+    // }
     public function kontak(): string
     {
         return view(name: 'kontak');

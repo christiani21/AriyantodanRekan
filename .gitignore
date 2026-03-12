@@ -1,0 +1,27 @@
+# CodeIgniter 4
+/vendor/
+/.env
+
+# Writable files that are automatically generated
+writable/cache/*
+!writable/cache/index.html
+!writable/cache/.htaccess
+writable/logs/*.log
+!writable/logs/index.html
+writable/session/*
+!writable/session/index.html
+writable/uploads/*
+!writable/uploads/index.html
+writable/debugbar/
+!writable/debugbar/index.html
+writable/assets/*
+!writable/assets/index.html
+
+# Composer
+composer.lock
+
+# IDE-specific files (optional)
+.idea/
+.vscode/
+*.swp
+.DS_Store
