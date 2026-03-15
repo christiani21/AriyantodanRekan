@@ -25,3 +25,4 @@ composer.lock
 .vscode/
 *.swp
 .DS_Store
+public/assets/.DS_Store

@@ -107,15 +107,12 @@ class Blog extends BaseController
             ->with('success', 'Artikel berhasil dihapus');
     }
 
-    // public function category($category)
-    // {
-    //     $postModel = new \App\Models\PostModel();
-
-    //     $data['posts'] = $postModel
-    //         ->where('category', $category)
-    //         ->orderBy('created_at', 'DESC')
-    //         ->findAll();
-
-    //     return view('blog', $data);
-    // }
+    public function category($category)
+    {
+        $data = [
+            'posts' => $this->postModel->where('category', $category)->orderBy('created_at', 'DESC')->findAll(),
+            'categories' => $this->postModel->distinct()->select('category')->findAll()
+        ];
+        return view('blog', $data);
+    }
 }

@@ -22,7 +22,7 @@ $routes->get('/detail_layanan', 'Home::detail_layanan');
 // BLOG PUBLIC
 $routes->get('blog', 'Blog::index');
 $routes->get('blog/category/(:segment)', 'Blog::category/$1');
-$routes->get('blog/detail/(:segment)', 'Blog::detail/$1');
+$routes->get('blog/detail/(:num)', 'Blog::detail/$1');
 
 // ======================
 // ADMIN AREA
@@ -37,7 +37,6 @@ $routes->post('admin/blog/store', 'AdminBlog::store');
 $routes->get('admin/blog/edit/(:num)', 'AdminBlog::edit/$1');
 $routes->post('admin/blog/update/(:num)', 'AdminBlog::update/$1');
 $routes->get('admin/blog/delete/(:num)', 'AdminBlog::delete/$1');
-$routes->get('blog/category/(:segment)', 'Blog::category/$1');
 
 // AUTH
 $routes->get('login', 'Auth::login');

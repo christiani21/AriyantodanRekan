@@ -18,15 +18,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="<?= base_url('assets/vendor/bootstrap/css/bootstrap.min.css') ?>" rel="stylesheet">
+  <link href="<?= base_url('assets/vendor/bootstrap-icons/bootstrap-icons.css') ?>" rel="stylesheet">
+  <link href="<?= base_url('assets/vendor/aos/aos.css') ?>" rel="stylesheet">
+  <link href="<?= base_url('assets/vendor/glightbox/css/glightbox.min.css') ?>" rel="stylesheet">
+  <link href="<?= base_url('assets/vendor/swiper/swiper-bundle.min.css') ?>" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-  <link href="<?= base_url('assets/vendor/bootstrap/css/bootstrap.min.css') ?>" rel="stylesheet">
   <link href="<?= base_url('assets/css/main.css') ?>" rel="stylesheet">
 
 </head>
@@ -51,7 +49,6 @@
           <li><a href="kontak">Kontak</a></li>
 
           <?php
-          use App\Models\PostModel;
 
           if (session()->get('isLoggedIn')): ?>
                     <?php else: ?>
@@ -68,7 +65,6 @@
   </header>
 
   <main class="main">
-
     <!-- Page Title -->
     <div class="page-title dark-background">
       <div class="container position-relative">
@@ -101,15 +97,6 @@
     <section id="blog-posts" class="blog-posts section">
 
       <div class="container">
-        <!-- <?php if (session()->get('isLoggedIn')) : ?>
-
-          <div class="mb-4 text-end">
-            <a href="<?= base_url('blog/create') ?>" class="btn btn-success">
-              + Tambah Artikel
-            </a>
-          </div>
-        <?php endif; ?> -->
-
         <div class="row gy-4">
 
         <script>console.log(<?= json_encode($posts) ?>);</script>
@@ -291,7 +278,7 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
   <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="<?= base_url('assets/js/main.js') ?>"></script>
 
 </body>
 
