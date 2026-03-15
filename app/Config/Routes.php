@@ -42,3 +42,6 @@ $routes->get('admin/blog/delete/(:num)', 'AdminBlog::delete/$1');
 $routes->get('login', 'Auth::login');
 $routes->post('login/process', 'Auth::processLogin');
 $routes->get('logout', 'Auth::logout');
+
+// EMAIL
+$routes->post('/kirim_email', 'Home::kirim_email');

@@ -70,4 +70,22 @@ class Home extends BaseController
         return view('layanan_view', $data);
     }
 
+    public function kirim_email()
+    {
+        $email_address = $this->request->getPost('email');
+
+        $email = \Config\Services::email();
+
+        $email->setFrom('christianindrawan12@gmail.com', 'Ariyanto dan Rekan');
+        $email->setTo($email_address);
+        $email->setSubject('Terima Kasih Telah Menghubungi Kami');
+        $email->setMessage('Kami akan segera merespons pertanyaan Anda.');
+
+        if ($email->send()) {
+            return redirect()->to('/beranda')->with('success', 'Email berhasil dikirim');
+        } else {
+            echo $email->printDebugger(['headers']);
+        }
+    }
+
 }
