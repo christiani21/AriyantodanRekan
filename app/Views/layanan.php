@@ -202,6 +202,108 @@
       </div>
     </section>
 
+    <!-- Featured Services Section -->
+    <section id="featured-services" class="featured-services section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+        <!-- Arbitrase -->
+        <div class="col-lg-3 col-md-6">
+          <div class="service-item position-relative text-center">
+            <div class="icon">
+              <i class="bi bi-file-text"></i>
+            </div>
+            <h3>Arbitrase</h3>
+            <p>Kami unggul dalam menangani sengketa hukum yang kompleks melalui arbitrase, sebuah metode penyelesaian sengketa yang semakin diminati sebagai alternatif litigasi konvensional.</p>
+          </div>
+        </div>
+
+        <!-- Hukum Perbankan & Investasi -->
+        <div class="col-lg-3 col-md-6">
+          <div class="service-item position-relative text-center">
+            <div class="icon">
+              <i class="bi bi-file-earmark-text"></i>
+            </div>
+            <h3>Hukum Perbankan & Investasi</h3>
+            <p>Ariyanto dan Rekan menghadirkan layanan hukum yang komprehensif bagi pelaku industri perbankan dan investasi.</p>
+          </div>
+        </div>
+
+        <!-- Hukum Perdata -->
+        <div class="col-lg-3 col-md-6">
+          <div class="service-item position-relative text-center">
+            <div class="icon">
+              <i class="bi bi-file-earmark-text"></i>
+            </div>
+            <h3>Hukum Perdata</h3>
+            <p>Kami memberikan pendampingan hukum perdata secara menyeluruh, baik dalam aspek konsultatif maupun penyelesaian sengketa.</p>
+          </div>
+        </div>
+
+        <!-- Hukum Perusahaan -->
+        <div class="col-lg-3 col-md-6">
+          <div class="service-item position-relative text-center">
+            <div class="icon">
+              <i class="bi bi-building"></i>
+            </div>
+            <h3>Hukum Perusahaan</h3>
+            <p>Kami memiliki keahlian luas dalam memberikan nasihat hukum di bidang hukum perusahaan.</p>
+          </div>
+        </div>
+
+        <!-- Kekayaan Intelektual -->
+        <div class="col-lg-3 col-md-6">
+          <div class="service-item position-relative text-center">
+            <div class="icon">
+              <i class="bi bi-lightbulb"></i>
+            </div>
+            <h3>Kekayaan Intelektual</h3>
+            <p>Kami membantu klien melindungi dan mengoptimalkan nilai Kekayaan Intelektual mereka.</p>
+          </div>
+        </div>
+
+        <!-- Litigasi Administrasi -->
+        <div class="col-lg-3 col-md-6">
+          <div class="service-item position-relative text-center">
+            <div class="icon">
+              <i class="bi bi-bank"></i>
+            </div>
+            <h3>Litigasi Administrasi & Penyelesaian Sengketa</h3>
+            <p>Kami memahami kompleksitas hukum administrasi dan implikasinya terhadap kegiatan usaha.</p>
+          </div>
+        </div>
+
+        <!-- Pasar Modal -->
+        <div class="col-lg-3 col-md-6">
+          <div class="service-item position-relative text-center">
+            <div class="icon">
+              <i class="bi bi-graph-up-arrow"></i>
+            </div>
+            <h3>Pasar Modal</h3>
+            <p>Kami memiliki pengalaman luas dalam menangani berbagai transaksi pasar modal, baik domestik maupun internasional.</p>
+          </div>
+        </div>
+
+        <!-- Ketenagakerjaan -->
+        <div class="col-lg-3 col-md-6">
+          <div class="service-item position-relative text-center">
+            <div class="icon">
+              <i class="bi bi-people"></i>
+            </div>
+            <h3>Ketenagakerjaan & Hubungan Industrial</h3>
+            <p>Kami memberikan layanan konsultasi dan pendampingan hukum ketenagakerjaan kepada klien korporasi, baik dalam aspek preventif, penasihat, maupun transaksional.</p>
+          </div>
+        </div>
+
+      </div>
+      </div>
+      
+    </section><!-- /Featured Services Section -->
+    
+    
+
   </main>
 
   <footer id="footer" class="footer dark-background">

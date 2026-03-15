@@ -26,3 +26,4 @@ composer.lock
 *.swp
 .DS_Store
 public/assets/.DS_Store
+public/assets/.DS_Store

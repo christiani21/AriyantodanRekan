@@ -183,7 +183,7 @@
           </div>
         </div><!-- Features Item -->
 
-        <div class="row gy-4 align-items-center features-item">
+        <!-- <div class="row gy-4 align-items-center features-item">
           <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
             <img src="assets/img/features-2.svg" class="img-fluid" alt="">
           </div>
@@ -199,9 +199,9 @@
               culpa qui officia deserunt mollit anim id est laborum
             </p>
           </div>
-        </div><!-- Features Item -->
+        </div>Features Item -->
 
-        <div class="row gy-4 align-items-center features-item">
+        <!-- <div class="row gy-4 align-items-center features-item">
           <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out">
             <img src="assets/img/features-3.svg" class="img-fluid" alt="">
           </div>
@@ -214,11 +214,11 @@
               <li><i class="bi bi-check"></i> <span>Facilis ut et voluptatem aperiam. Autem soluta ad fugiat</span>.</li>
             </ul>
           </div>
-        </div><!-- Features Item -->
+        </div>Features Item
 
-      </div>
+      </div> -->
 
-    </section><!-- Features Section -->
+    </section>Features Section
 
   </main>
 
