@@ -76,22 +76,31 @@
           </ol>
         </nav>
       </div>
-    </div><!-- End Page Title -->
-          <li class="dropdown">
-              <a href="#">
-                <span>Kategori</span>
-                <i class="bi bi-chevron-down toggle-dropdown"></i>
-              </a>
-              <ul>
-                <?php foreach ($categories as $cat): ?>
-                  <li>
-                    <a href="<?= base_url('blog/category/'.$cat['category']) ?>">
-                      <?= esc($cat['category']) ?>
-                    </a>
-                  </li>
-                <?php endforeach; ?>
-              </ul>
-            </li>
+    </div>
+    <!-- End Page Title -->
+
+    <!-- Category Dropdown -->
+      <div class="blog-filter-wrapper">
+        
+        <div class="filter-box">
+          <div class="filter-toggle">
+            <i class="bi bi-funnel"></i>
+            <span>Kategori</span>
+            <i class="bi bi-chevron-down"></i>
+          </div>
+
+          <ul class="filter-dropdown">
+            <?php foreach ($categories as $cat): ?>
+              <li>
+                <a href="<?= base_url('blog/category/'.$cat['category']) ?>">
+                  <?= esc($cat['category']) ?>
+                </a>
+              </li>
+            <?php endforeach; ?>
+          </ul>
+        </div>
+
+      </div>
 
     <!-- Blog Posts Section -->
     <section id="blog-posts" class="blog-posts section">

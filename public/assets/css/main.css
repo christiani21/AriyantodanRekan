@@ -1860,6 +1860,109 @@ section,
 }
 
 /*--------------------------------------------------------------
+# Category Dropdown Section
+--------------------------------------------------------------*/
+/* wrapper posisi kanan */
+.blog-filter-wrapper {
+  display: flex;
+  justify-content: flex-end;
+
+  margin: 25px 20px 30px 0;
+}
+
+/* box utama */
+.filter-box {
+  position: relative;
+}
+
+/* tombol filter */
+.filter-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  padding: 12px 20px;
+  border-radius: 30px;
+
+  cursor: pointer;
+  font-weight: 600;
+  color: #3a2c0f;
+
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+/* icon */
+.filter-toggle i:first-child {
+  color: #c9a96a;
+}
+
+/* hover tombol */
+.filter-toggle:hover {
+  border-color: #c9a96a;
+}
+
+/* dropdown */
+.filter-dropdown {
+  position: absolute;
+  right: 0;
+  top: 120%;
+
+  width: 220px;
+  background: #fff;
+
+  border-radius: 12px;
+  border-top: 3px solid #c9a96a;
+
+  padding: 10px 0;
+  list-style: none;
+
+  box-shadow: 0px 15px 40px rgba(0,0,0,0.15);
+
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: 0.3s;
+  z-index: 999;
+}
+
+/* show on hover */
+.filter-box:hover .filter-dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* rotate icon */
+.filter-box:hover .bi-chevron-down {
+  transform: rotate(180deg);
+  transition: 0.3s;
+}
+
+/* item */
+.filter-dropdown li a {
+  display: block;
+  padding: 10px 20px;
+  color: #444;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+/* hover item */
+.filter-dropdown li a:hover {
+  color: #c9a96a;
+  background: #f9f7f2;
+  padding-left: 25px;
+}
+
+/* divider */
+.filter-dropdown li:not(:last-child) a {
+  border-bottom: 1px solid #f1f1f1;
+}
+
+/*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
 .portfolio .portfolio-filters {

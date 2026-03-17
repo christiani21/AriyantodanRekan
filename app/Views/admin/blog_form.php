@@ -22,15 +22,16 @@
                     <label class="form-label">Kategori</label>
                     <select name="category" class="form-control" required>
                         <option value="">-- Pilih Kategori --</option>
-                        <option value="Politik" <?= isset($post) && $post['category']=='Politik' ? 'selected':'' ?>>Politik</option>
-                        <option value="Hukum" <?= isset($post) && $post['category']=='Hukum' ? 'selected':'' ?>>Hukum</option>
-                        <option value="HAM" <?= isset($post) && $post['category']=='HAM' ? 'selected':'' ?>>HAM</option>
+                        <option value="Hukum Perdata" <?= isset($post) && $post['category']=='Hukum Perdata' ? 'selected':'' ?>>Hukum Perdata</option>
+                        <option value="Hukum Pidana" <?= isset($post) && $post['category']=='Hukum Pidana' ? 'selected':'' ?>>Hukum Pidana</option>
+                        <option value="Hukum Tata Usaha Negara" <?= isset($post) && $post['category']=='Hukum Tata Usaha Negara' ? 'selected':'' ?>>Hukum Tata Usaha Negara</option>
+                        <option value="Hukum Ketenagakerjaan" <?= isset($post) && $post['category']=='Hukum Ketenagakerjaan' ? 'selected':'' ?>>Hukum Ketenagakerjaan</option>
+                        <option value="Hukum Keluarga" <?= isset($post) && $post['category']=='Hukum Keluarga' ? 'selected':'' ?>>Hukum Keluarga</option>
+                        <option value="Hukum Hak Kekayaan Intelektual" <?= isset($post) && $post['category']=='Hukum Hak Kekayaan Intelektual' ? 'selected':'' ?>>Hukum Hak Kekayaan Intelektual</option>
+                        <option value="Hukum Perbankan dan Keuangan" <?= isset($post) && $post['category']=='Hukum Perbankan dan Keuangan' ? 'selected':'' ?>>Hukum Perbankan dan Keuangan</option>
+                        <option value="Hukum Bisnis" <?= isset($post) && $post['category']=='Hukum Bisnis' ? 'selected':'' ?>>Hukum Bisnis</option>
+                        <option value="Hukum Agraria" <?= isset($post) && $post['category']=='Hukum Agraria' ? 'selected':'' ?>>Hukum Agraria</option>
                     </select>
-                </div>
-                
-                <div class="mb-3">
-                    <label class="form-label">Gambar Artikel</label>
-                    <input type="file" name="image" class="form-control">
                 </div>
 
                 <?php if(isset($post) && $post['image']) : ?>
