@@ -41,12 +41,12 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="beranda">Beranda</a></li>
-          <li><a href="tentang_kami">Tentang Kami</a></li>
-          <li><a href="layanan">Layanan Hukum</a></li>
-          <li><a href="rekan">Rekan</a></li>
-          <li><a href="" class="active">Blog</a></li>
-          <li><a href="kontak">Kontak</a></li>
+          <li><a href="<?= base_url('beranda') ?>">Beranda</a></li>
+          <li><a href="<?= base_url('tentang_kami') ?>">Tentang Kami</a></li>
+          <li><a href="<?= base_url('layanan') ?>">Layanan Hukum</a></li>
+          <li><a href="<?= base_url('rekan') ?>">Rekan</a></li>
+          <li><a href="<?= base_url('blog') ?>" class="active">Blog</a></li>
+          <li><a href="<?= base_url('kontak') ?>">Kontak</a></li>
 
           <?php
 
