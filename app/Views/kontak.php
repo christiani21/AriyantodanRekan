@@ -109,7 +109,7 @@
           </div>
 
           <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="500">
+            <form action="<?= base_url('kontak/kirim_email') ?>" method="post" data-aos="fade-up" data-aos-delay="500">
               <div class="row gy-4">
 
                 <div class="col-md-6">
@@ -128,13 +128,13 @@
                   <textarea class="form-control" name="message" rows="4" placeholder="Message" required=""></textarea>
                 </div>
 
-                <div class="col-md-12 text-center">
+                <!-- <div class="col-md-12 text-center">
                   <div class="loading">Loading</div>
                   <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div> -->
 
-                  <button type="submit">Send Message</button>
-                </div>
+                  <button class="" type="submit">Send Message</button>
+                <!-- </div> -->
 
               </div>
             </form>
@@ -236,7 +236,7 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
   <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="<?= base_url('assets/js/main.js') ?>"></script>
 
 </body>
 

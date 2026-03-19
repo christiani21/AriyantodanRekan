@@ -45,3 +45,4 @@ $routes->get('logout', 'Auth::logout');
 
 // EMAIL
 $routes->post('/kirim_email', 'Home::kirim_email');
+$routes->post('kontak/kirim_email', 'Kontak::kirim_email');
