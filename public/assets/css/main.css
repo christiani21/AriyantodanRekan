@@ -2646,6 +2646,33 @@ section,
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
 
+.btn-send {
+  width: 100%;          /* ini kunci utama */
+  margin: 0;            /* biar gak geser */
+  display: block;
+  padding: 15px;
+  border-radius: 50px;
+
+  background: linear-gradient(90deg, #bb9b3b, #9f7f29);
+  color: #fff;
+
+  border: 1px solid rgba(255,255,255,0.2);
+
+  font-size: 16px;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition: 0.3s;
+
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1);
+}
+
+.btn-send:hover {
+  background: linear-gradient(90deg, #be9f49, #eec853);
+  transform: translateY(-2px);
+}
+
+
 /*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/

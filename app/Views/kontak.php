@@ -34,7 +34,7 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <a href="index" class="logo d-flex align-items-center">
+      <a href="beranda" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <img src="assets/img/logo1.png" alt="">
         <h1 class="sitename"></h1>
@@ -128,13 +128,9 @@
                   <textarea class="form-control" name="message" rows="4" placeholder="Message" required=""></textarea>
                 </div>
 
-                <!-- <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div> -->
-
-                  <button class="" type="submit">Send Message</button>
-                <!-- </div> -->
+                <div class="col-md-12 text-center">
+                      <button class="btn-send">Kirim</button>
+                    </div>
 
               </div>
             </form>
@@ -160,11 +156,11 @@
           <div class="col-lg-6">
             <h4>Memerlukan Bantuan Hukum?</h4>
             <p>Segera kontak kami melalui WhatsApp atau email!</p>
-            <form action="forms/newsletter.php" method="post" class="php-email-form">
-              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Kirim"></div>
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Pesan anda telah dikirim. Terima kasih!</div>
+            <form action="<?= base_url('kirim_email') ?>" method="post">
+              <div class="newsletter-form">
+                <input type="email" name="email" required>
+                <input type="submit" value="Kirim">
+              </div>
             </form>
           </div>
         </div>
