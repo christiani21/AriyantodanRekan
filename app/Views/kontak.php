@@ -101,7 +101,7 @@
                 <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
                   <i class="bi bi-envelope"></i>
                   <h3>Email Us</h3>
-                  <p>kantorariyantodanrekan@gmail.com</p>
+                  <p>info.ariyantodanrekan@gmail.com</p>
                 </div>
               </div><!-- End Info Item -->
 
@@ -203,7 +203,7 @@
         <div class="col-lg-4 col-md-12">
           <h4>Kontak Kami</h4>
             <p><strong>Phone:</strong> <span><a href="https://wa.me/628131964533?text=Halo,%20saya%20butuh%20bantuan%20untuk%20permasalahan%20hukum.">0813 1964 533</a></span></p>
-            <p><strong>Email:</strong> <span><a href="mailto:kantorariyantodanrekan@gmail.com">kantorariyantodanrekan@gmail.com</a></span></p>
+            <p><strong>Email:</strong> <span><a href="mailto:info.ariyantodanrekan@gmail.com">info.ariyantodanrekan@gmail.com</a></span></p>
           <div class="social-links d-flex">
             <a href="https://www.youtube.com/@AriyantodanRekan"><i class="bi bi-youtube"></i></a>
             <a href=""><i class="bi bi-instagram"></i></a>

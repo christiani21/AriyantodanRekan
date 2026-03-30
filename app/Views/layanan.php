@@ -224,7 +224,7 @@
         <div class="col-lg-3 col-md-6">
           <div class="service-item position-relative text-center">
             <div class="icon">
-              <i class="bi bi-file-earmark-text"></i>
+              <i class="bi bi-currency-dollar"></i>
             </div>
             <h3>Hukum Perbankan & Investasi</h3>
             <p>Ariyanto dan Rekan menghadirkan layanan hukum yang komprehensif bagi pelaku industri perbankan dan investasi.</p>
@@ -361,7 +361,7 @@
         <div class="col-lg-4 col-md-12">
           <h4>Kontak Kami</h4>
             <p><strong>Phone:</strong> <span><a href="https://wa.me/628131964533?text=Halo,%20saya%20butuh%20bantuan%20untuk%20permasalahan%20hukum.">0813 1964 533</a></span></p>
-            <p><strong>Email:</strong> <span><a href="mailto:kantorariyantodanrekan@gmail.com">kantorariyantodanrekan@gmail.com</a></span></p>
+            <p><strong>Email:</strong> <span><a href="mailto:info.ariyantodanrekan@gmail.com">info.ariyantodanrekan@gmail.com</a></span></p>
           <div class="social-links d-flex">
             <a href="https://www.youtube.com/@AriyantodanRekan"><i class="bi bi-youtube"></i></a>
             <a href=""><i class="bi bi-instagram"></i></a>

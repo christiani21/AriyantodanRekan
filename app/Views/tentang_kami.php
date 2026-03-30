@@ -77,8 +77,7 @@
 
         <div class="row gy-4">
           <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
-            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
+            <img src="assets/img/about.png" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
             <h3>ARIYANTO & REKAN (A&R)</h3>
@@ -191,31 +190,6 @@
       </div>
 
     </section><!-- /Clients Section -->
-
-    <!-- Features Section -->
-    <!-- <section id="features" class="features section"> -->
-
-    <!-- About Section -->
-    <!-- <section id="about" class="about section">
-
-      <div class="container">
-
-        <div class="row gy-4">
-          <div class="col-lg-6 content">
-            <h3>Kasus lain yang pernah kami tangani</h3>
-            <ul>
-              <li><i class="bi bi-check2-all"></i> <span>Terpercaya: Menjaga kerahasiaan dan kepentingan klien dengan penuh integritas.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>Terdidik: Memiliki kompetensi hukum yang kuat dan terus berkembang.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>Berpengalaman: Mampu menangani berbagai kasus hukum dengan profesionalisme tinggi.</span></li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-
-    </section>/About Section -->
-
-    <!-- </section>Features Section -->
   </main>
 
   <footer id="footer" class="footer dark-background">
@@ -273,7 +247,7 @@
         <div class="col-lg-4 col-md-12">
           <h4>Kontak Kami</h4>
             <p><strong>Phone:</strong> <span><a href="https://wa.me/628131964533?text=Halo,%20saya%20butuh%20bantuan%20untuk%20permasalahan%20hukum.">0813 1964 533</a></span></p>
-            <p><strong>Email:</strong> <span><a href="mailto:kantorariyantodanrekan@gmail.com">kantorariyantodanrekan@gmail.com</a></span></p>
+            <p><strong>Email:</strong> <span><a href="mailto:info.ariyantodanrekan@gmail.com">info.ariyantodanrekan@gmail.com</a></span></p>
           <div class="social-links d-flex">
             <a href="https://www.youtube.com/@AriyantodanRekan"><i class="bi bi-youtube"></i></a>
             <a href=""><i class="bi bi-instagram"></i></a>

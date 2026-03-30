@@ -76,8 +76,8 @@ class Home extends BaseController
 
         $email = \Config\Services::email();
 
-        $email->setFrom('christianindrawan12@gmail.com', 'Ariyanto dan Rekan');
-        $email->setTo($email_address);
+        $email->setFrom($email_address);
+        $email->setTo('info.ariyantodanrekan@gmail.com', 'Ariyanto dan Rekan');
         $email->setSubject('Terima Kasih Telah Menghubungi Kami');
         $email->setMessage('Kami akan segera merespons pertanyaan Anda.');
 

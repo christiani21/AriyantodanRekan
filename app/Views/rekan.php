@@ -356,7 +356,6 @@
                       penyusunan dan penelaahan kontrak, serta penyelesaian sengketa baik melalui jalur litigasi 
                       maupun non-litigasi. Beliau senantiasa memberikan layanan hukum yang profesional, tepat waktu, 
                       dan berfokus pada hasil yang optimal untuk mendukung kepentingan dan perlindungan hukum klien.
-
                     </p>
                   </div>
 
@@ -404,7 +403,7 @@
                     <br></br>
                     <p>Indi Anggraeni P. merupakan Associate di Ariyanto & Rekan Lulusan Sarjana Hukum Universitas Pakuan
                       dan Magister Kenotariatan Universitas Pancasila, beliau memiliki landasan kuat di bidang 
-                      hukum perdata dan korporasi. 
+                      hukum perdata.
                   
                     <p>Beliau menangani penyusunan dan penelaahan kontrak, pengurusan dokumen legalitas, serta penyelesaian
                       sengketa melalui litigasi maupun non-litigasi. Dengan pengalaman yang matang, beliau menghadirkan
@@ -586,7 +585,7 @@
         <div class="col-lg-4 col-md-12">
           <h4>Kontak Kami</h4>
             <p><strong>Phone:</strong> <span><a href="https://wa.me/628131964533?text=Halo,%20saya%20butuh%20bantuan%20untuk%20permasalahan%20hukum.">0813 1964 533</a></span></p>
-            <p><strong>Email:</strong> <span><a href="mailto:kantorariyantodanrekan@gmail.com">kantorariyantodanrekan@gmail.com</a></span></p>
+            <p><strong>Email:</strong> <span><a href="mailto:info.ariyantodanrekan@gmail.com">info.ariyantodanrekan@gmail.com</a></span></p>
           <div class="social-links d-flex">
             <a href="https://www.youtube.com/@AriyantodanRekan"><i class="bi bi-youtube"></i></a>
             <a href=""><i class="bi bi-instagram"></i></a>
