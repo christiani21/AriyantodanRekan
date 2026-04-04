@@ -19,13 +19,14 @@ class Blog extends BaseController
     // ======================
     public function index()
     {
-        $data = [
-            'posts' => $this->postModel->findAll(),
-            'categories' => $this->postModel->distinct()->select('category')->findAll()
-        ];
+        $data['posts'] = $this->postModel
+            ->orderBy('created_at', 'DESC')
+            ->paginate(6); // tampil 6 artikel per halaman
+        $data['categories'] = $this->postModel->distinct()->select('category')->findAll();
+        $data['pager'] = $this->postModel->pager;
+
         return view('blog', $data);
     }
-
     public function detail($id)
     {
         $postModel = new \App\Models\PostModel();

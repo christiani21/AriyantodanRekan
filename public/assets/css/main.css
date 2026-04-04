@@ -2213,41 +2213,57 @@ section,
 --------------------------------------------------------------*/
 .blog-pagination {
   padding-top: 0;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
 }
 
+/* container */
 .blog-pagination ul {
   display: flex;
+  justify-content: center;
+  gap: 10px;
+
   padding: 0;
-  margin: 0;
+  margin: 30px 0;
   list-style: none;
 }
 
+/* item */
 .blog-pagination li {
-  margin: 0 5px;
   transition: 0.3s;
 }
 
+/* link */
 .blog-pagination li a {
-  color: var(--accent-color);
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 36px;
-  height: 36px;
+
+  width: 42px;
+  height: 42px;
+
   border-radius: 50%;
   border: 1px solid var(--accent-color);
+
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 500;
+
+  transition: all 0.3s ease;
 }
 
-.blog-pagination li a.active,
+/* hover */
 .blog-pagination li a:hover {
   background: var(--accent-color);
   color: var(--contrast-color);
+  transform: translateY(-2px);
 }
 
-.blog-pagination li a.active a,
-.blog-pagination li a:hover a {
+/* ✅ ACTIVE (INI YANG BENAR) */
+.blog-pagination li.active a {
+  background: var(--accent-color);
   color: var(--contrast-color);
+  font-weight: 600;
+
+  box-shadow: 0 4px 10px rgba(201,169,106,0.4);
 }
 
 /*--------------------------------------------------------------
@@ -2594,6 +2610,7 @@ section,
 /* GAMBAR */
 .card-profile img {
   object-fit: cover;
+  margin-top: 60px;
 
   /* efek awal */
   filter: grayscale(100%);
@@ -2874,4 +2891,32 @@ section,
   padding-left: 5px;
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
+}
+
+/* wajib untuk parent */
+.position-relative {
+  position: relative !important;
+}
+
+/* input kasih ruang kanan */
+.password-input {
+  padding-right: 45px !important;
+}
+
+/* icon */
+.toggle-password {
+  position: absolute !important;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+
+  cursor: pointer;
+  color: #888;
+  font-size: 18px;
+  z-index: 99;
+}
+
+/* hover */
+.toggle-password:hover {
+  color: #c9a96a;
 }

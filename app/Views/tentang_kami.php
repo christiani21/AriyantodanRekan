@@ -87,7 +87,7 @@
               Dalam praktiknya, A&R mengedepankan prinsip “Terpercaya, Terdidik, dan Berpengalaman”:
             </p>
             <ul>
-              <li><i class="bi bi-check2-all"></i> <span>Terpercaya: Menjaga kerahasiaan dan kepentingan klien dengan penuh integritas.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Tepercaya: Menjaga kerahasiaan dan kepentingan klien dengan penuh integritas.</span></li>
               <li><i class="bi bi-check2-all"></i> <span>Terdidik: Memiliki kompetensi hukum yang kuat dan terus berkembang.</span></li>
               <li><i class="bi bi-check2-all"></i> <span>Berpengalaman: Mampu menangani berbagai kasus hukum dengan profesionalisme tinggi.</span></li>
             </ul>
