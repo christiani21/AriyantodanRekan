@@ -42,23 +42,14 @@ class Blog extends BaseController
     // ======================
     // ADMIN AREA
     // ======================
-    private function checkLogin()
-    {
-        if (!session()->get('isLoggedIn')) {
-            return redirect()->to('/login');
-        }
-    }
 
     public function create()
     {
-        $this->checkLogin();
         return view('admin/blog_form');
     }
 
     public function store()
     {
-        $this->checkLogin();
-
         $title = $this->request->getPost('title');
         $slug  = url_title($title, '-', true);
 
@@ -75,7 +66,6 @@ class Blog extends BaseController
 
     public function edit($id)
     {
-        $this->checkLogin();
         $post = $this->postModel->find($id);
 
         return view('admin/blog_form', ['post' => $post]);
@@ -83,8 +73,6 @@ class Blog extends BaseController
 
     public function update($id)
     {
-        $this->checkLogin();
-
         $title = $this->request->getPost('title');
         $slug  = url_title($title, '-', true);
 
@@ -101,7 +89,6 @@ class Blog extends BaseController
 
     public function delete($id)
     {
-        $this->checkLogin();
         $this->postModel->delete($id);
 
         return redirect()->to('/blog')

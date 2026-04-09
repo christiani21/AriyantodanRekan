@@ -28,15 +28,17 @@ $routes->get('blog/detail/(:num)', 'Blog::detail/$1');
 // ADMIN AREA
 // ======================
 
-$routes->get('admin', 'Admin::index');
+$routes->group('admin', ['filter' => 'isLoggedIn'], function($routes) {
+    $routes->get('/', 'Admin::index');
 
-// ADMIN BLOG CRUD
-$routes->get('admin/blog', 'AdminBlog::index');
-$routes->get('admin/blog/create', 'AdminBlog::create');
-$routes->post('admin/blog/store', 'AdminBlog::store');
-$routes->get('admin/blog/edit/(:num)', 'AdminBlog::edit/$1');
-$routes->post('admin/blog/update/(:num)', 'AdminBlog::update/$1');
-$routes->get('admin/blog/delete/(:num)', 'AdminBlog::delete/$1');
+    // ADMIN BLOG CRUD
+    $routes->get('blog', 'AdminBlog::index');
+    $routes->get('blog/create', 'AdminBlog::create');
+    $routes->post('blog/store', 'AdminBlog::store');
+    $routes->get('blog/edit/(:num)', 'AdminBlog::edit/$1');
+    $routes->post('blog/update/(:num)', 'AdminBlog::update/$1');
+    $routes->get('blog/delete/(:num)', 'AdminBlog::delete/$1');
+});
 
 // AUTH
 $routes->get('login', 'Auth::login');
